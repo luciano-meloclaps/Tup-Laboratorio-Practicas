@@ -1,2 +1,2 @@
 # Tup-Laboratorio-Practicas
-Repositorio dedicado a practicas en C 
+Repositorio dedicado a practicas en C (UTN)
