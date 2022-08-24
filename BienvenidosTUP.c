@@ -464,7 +464,7 @@ float
 
     // Ejercicio 1
         /*
-        for ( int i = 1; i <= 10 ; i++)
+            for ( int i = 1; i <= 10 ; i++)
             { 
                 printf("%i \n", i);
             }
@@ -479,7 +479,6 @@ float
                         }
                         system ("pause");    
         */           
-        
     
     // Ejercicio 3
         /*      
@@ -538,13 +537,145 @@ float
                 printf("La suma de los multiplos de 3: %i", suma);
         */
 
+    //Ejercicio 7
+    /* 
+        int suma = 0;
+        for (int i = 0; i < 20; i++)
+        {
+            if (i % 2 == 0)
+            {
+                printf("Numero que se suma: %i \n", i);
+                suma = suma + i; //La variable suma acumula los numeros pares y los va sumando
+            }
+        }
+        printf("La suma total es %i", suma);
+    */
+
+    //Ejercicio 8
+    /*
+        //Declaramos las variables que almacenan las multiplicaciones en el For
+        int number1, number2, number3, number4, number5, number6, number7, number8, number9 ;
+    
+        int numberEx = (printf("Ingrese N1: \n")); //Numero que se ingresa por consola
+        scanf("%i", &numberEx);
+        
+        for (int i = 0; i >= 0; i++) //Mayor a 0 para que solo se repita una vez
+        {
+            number1 = numberEx * 1;
+            number2 = numberEx * 2;
+            number3 = numberEx * 3;
+            number4 = numberEx * 4;
+            number5 = numberEx * 5; 
+            number6 = numberEx * 6;
+            number7 = numberEx * 7;
+            number8 = numberEx * 8;
+            number9 = numberEx * 9;
+        }
+        //Se imprime cada resultado en cada linea para que esa mas entendible
+        printf("Numero: %i \n", number1);
+        printf("Numero: %i \n", number2);
+        printf("Numero: %i \n", number3);
+        printf("Numero: %i \n", number4);
+        printf("Numero: %i \n", number5);
+        printf("Numero: %i \n", number6);
+        printf("Numero: %i \n", number7);
+        printf("Numero: %i \n", number8);
+        printf("Numero: %i \n", number9); 
+    */
+
+    //Ejercico 10
+    /*
+        for ( int i = 0 ; i < 10; i++)
+
+            if(i == 2 || i == 7 )
+
+            printf("... \n");
+            
+            else 
+            
+            printf("@ \n");
+    */
+        
+    //Ejercico 11
+    /*
+        for ( int i = 0 ; i < 11; i++)
+
+            if(i == 2 || i == 9)
+            printf("... \n");
+            
+            else if (i == 0 || i == 3 || i == 5 || i == 7 || i == 10)    
+            printf("@@ \n");
+
+            else if(i == 1 || i == 4 || i == 6 || i == 8)
+            printf("@ \n");
+    */
+
+    //Ejercico 12
+    /*
+        for (int i = 1; i < 11; i++)
+        {
+            printf("@\n");
+            if(i == 1) 
+
+            {
+                printf("@");
+            }
+            else if(i > 1 && i <= 2)
+            {
+                printf("@@");
+            }
+            else if (i > 2 && i <= 3)
+            {
+                printf("@@@");
+            }
+            else if (i > 3 && i <= 4)
+            {
+                printf("@@@@");
+            }
+            else if (i > 4 && i <= 5)
+            {
+                printf("@@@@@");
+            }
+                
+            else if (i > 5 && i <= 6)
+            {
+                printf("@@@@@@");
+            }
+            else if (i > 6 && i <= 7)
+            {
+                printf("@@@@@@@");
+            }
+            else if (i > 7 && i <= 8)
+            {
+                printf("@@@@@@@@");
+            }
+            else if (i > 8 && i <= 9)
+            {
+                printf("@@@@@@@@@");
+            }
+            else if (i > 9 && i <= 10)
+            {
+                printf("@@@@@@@@@@@");
+            }
+    */
+   /*
+            for (int i = 1; i < 11; i++)
+        {
+                printf("@\n");
+
+            for (int i = 0; i < 9; i++)
+            {
+                printf("@");
+            }
+            
+*/
+    
+    }
+
+
+
+
 }
-
-
-
-
-
-
 
 
 
